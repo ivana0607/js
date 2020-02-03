@@ -168,38 +168,29 @@ console.log();
 //         break;
 // }
 
-//sqrt, pow, cos, sin
+// 
+//ko je user // admin,user,moderator
 
-let znak = 'cos'
-let br1 = 102;
-let br2 = 13.2;
+let korisnik = 'admin';
 
-switch (znak){
-    case  '+':
-        console.log(br1+br2);
+// if (korisnik!=='admin' && korisnik!=='user'){
+//     console.log('Korisnik je moderator');
+// }else if (korisnik!=='admin'){
+//     console.log('Korisnik je user');
+// }else {
+//     console.log('Korisnik je admin');
+// }
+
+switch(korisnik){
+    case 'admin':
+        console.log('Korisnik je admin');
         break;
-    case  '-':
-        console.log(br1-br2);
+    case 'user':
+        console.log('Korisnik je user');
         break;
-    case  '*':
-        console.log(br1*br2);
+    case 'moderator':
+        console.log('Korisnik je moderator');
         break;
-    case  '/':
-        console.log(br1/br2);
-        break;
-    case 'sqrt':
-        console.log(Math.sqrt(br1));
-        break;
-    case 'pow':
-        console.log(br1**2);
-        break;
-    case 'cos':
-        console.log(Math.cos(br1));
-        break;
-    case 'sin':
-        console.log(Math.sin(br1));
-        break;
-    default :
-        console.log('Nema');
-        break;
+    default:
+        console.log('Nema korisnika');
 }
