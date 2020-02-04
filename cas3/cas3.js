@@ -120,3 +120,73 @@
 //     i++
 // }
 // console.log(zbir);
+
+// let x = '';
+// x += '\n'//enter - new line
+// for (let i = 0; i < 5; i++) {
+//     for (let j = 0; j < 5; j++) {//j svaki put dobija vrednost nula
+//             x+='*'
+//         }
+//         x +='\n'
+//     }
+// console.log(x);
+
+// let x = '';
+
+// for (i = 0; i < 5; i++) {
+//     x += '*'.repeat(5) + '\n';
+// }
+// console.log(x);
+
+//napraviti pravougaonik sa stranicama n i m
+// let n = 3;
+// let m = 10;
+// let x = '';
+
+// for (let n = 0; n < 3; n++) {
+//        for (let m = 0; m < 10; m++) {  //j svaki put dobija vrednost nula
+//                 x+='*'
+//             }
+//              x +='\n'
+//          }
+//      console.log(x);
+
+// for (i = 0; i < n; i++) {
+//          x += '*'.repeat(m) + '\n';
+//         }
+//          console.log(x);
+
+// let x = '*'.repeat(m);
+// let y = x.repeat(n);
+//ili
+// let n = 3;
+// let m = 10;
+// let x = '';
+// x += ('*'.repeat(m) + '\n').repeat(n);
+// console.log(x);
+
+//pravougaonik 7x10
+// **********
+// *        *
+// *        *
+// **********
+let kol = 10;
+let red = 7;
+
+let l1 = '';
+for (let i = 0; i < kol; i++) {
+    l1 += '*';
+}
+console.log(l1);
+
+let l2 = '*';
+for (let i = 0; i < kol - 2; i++) {
+    l2 += ' ';
+}
+l2 += '*';
+for (let i = 0; i < red - 2; i++) {
+    
+
+    console.log(l2);
+}
+console.log(l1);
