@@ -181,16 +181,34 @@ let korisnik = 'admin';
 //     console.log('Korisnik je admin');
 // }
 
-switch(korisnik){
-    case 'admin':
-        console.log('Korisnik je admin');
+// switch(korisnik){
+//     case 'admin':
+//         console.log('Korisnik je admin');
+//         break;
+//     case 'user':
+//         console.log('Korisnik je user');
+//         break;
+//     case 'moderator':
+//         console.log('Korisnik je moderator');
+//         break;
+//     default:
+//         console.log('Nema korisnika');
+// }
+
+//sta ispisuje
+
+let x = 5;
+
+switch (x){
+    case 4:
+        console.log(4);
         break;
-    case 'user':
-        console.log('Korisnik je user');
-        break;
-    case 'moderator':
-        console.log('Korisnik je moderator');
+    case 5:
+        console.log(5);
+    case 7:
+        console.log(7);
         break;
     default:
-        console.log('Nema korisnika');
+        console.log("77");//ispisuje 5,7...do breaka   
+
 }
