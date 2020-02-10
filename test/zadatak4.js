@@ -3,7 +3,7 @@
 // Primer za W=6 i H=10.
 
 let w = 6;
-let h = 10;
+let h = 7;
 let x = '';
 
 x=' '+'*'.repeat(w-2)

@@ -1,4 +1,5 @@
 // Ivana Djurkovic
+
 // Elektrodistribuciji je potreban program za računanje potrošnje struje, pa je potrbno da napravite
 // program koji računa iznos koji je potrebno da određeni korisnik plati. Ulazni parametri su:
 // 1. Broj kilovata - bk

@@ -18,7 +18,7 @@ switch (X) {
 // Zasto?
 
 //za x = 1 izbacuje 2, default i 3 //do prvog break-a
-//za x = 5 izbacuje default i 3 // defaault izvrsava ukoliko nista drugo nije tacno
+//za x = 5 izbacuje default i 3 // default izvrsava ukoliko nista drugo nije tacno
         // onda 3 do break-a
 
 // T2

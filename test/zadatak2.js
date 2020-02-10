@@ -29,7 +29,7 @@ if (distanca > 0 && unitPrice > 0 && startPrice > 0) {
 }
 
 
-if (money >= 480) {
+if (money >= 480) { // umesto 480 treba da stoji cena 
     console.log('Ima para');
 
 } else {

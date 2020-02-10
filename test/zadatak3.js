@@ -10,8 +10,8 @@
 // Napomena: Izvriti proveru ulaznih podataka.
 
 
-let k = 3;
-let n = 9;
+let k = 2;
+let n = 3;
 
 if (k > 0 && k < 8 && n > 0 && n < 8) {
     for (let i = 1; i <= 31; i++) {
